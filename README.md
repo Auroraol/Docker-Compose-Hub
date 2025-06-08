@@ -30,7 +30,7 @@ systemctl enable docker
 docker ps
 ```
 
-![image-20231002194321227](file://D:\Github\BackFront\4-%E5%85%AC%E5%85%B1\%E9%83%A8%E7%BD%B2\2-%E9%83%A8%E7%BD%B2.assets\image-20231002194321227.png?lastModify=1749368936)
+![image-20231002194321227](https://github.com/Auroraol/Drawing-bed/raw/main/img/image-20231002194321227.png)
 
 ## 安装DockerCompose
 
@@ -47,7 +47,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-![image-20240430223322693](file://D:\Github\BackFront\4-%E5%85%AC%E5%85%B1\%E9%83%A8%E7%BD%B2\2-%E9%83%A8%E7%BD%B2.assets\image-20240430223322693.png?lastModify=1749368936)
+![image-20240430223322693](https://github.com/Auroraol/Drawing-bed/raw/main/img/image-20240430223322693.png)
 
 # 使用 Docker-Compose-Hub
 
@@ -71,7 +71,7 @@ docker compose up --build -d # 或者 docker-compose up --build -d
 - 如果在开发环境中且经常修改 `Dockerfile` 或应用代码，请使用 `docker compose up --build -d`。
 - 如果镜像已经构建完成且未发生变化，或者是在生产环境中，请使用 `docker compose up -d`。
 
-![image-20250608165712995](D:\Github\docker-compose-hub\README.assets\image-20250608165712995.png)
+![image-20250608165712995](https://github.com/Auroraol/Drawing-bed/raw/main/img/image-20250608165712995.png)
 
 ```shell
 # 进入容器 
@@ -86,11 +86,11 @@ exit # 或者 ctrl + D
 
 直接进入 MySQL 命令行客户端
 
-![image-20250608170525031](D:\Github\docker-compose-hub\README.assets\image-20250608170525031.png)
+![image-20250608170525031](D:/Github/docker-compose-hub/README.assets/image-20250608170525031.png)
 
 先进入容器再进入MySQL命令行客户端
 
-![image-20250608170737425](D:\Github\docker-compose-hub\README.assets\image-20250608170737425.png)
+![image-20250608170737425](https://github.com/Auroraol/Drawing-bed/raw/main/img/image-20250608170737425.png)
 
 # 约定
 
