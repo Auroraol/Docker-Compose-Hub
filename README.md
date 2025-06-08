@@ -174,3 +174,6 @@ pnpm lint 或 npm run lint 的格式检查是通过以下方式实现的：
 1. 自动化：通过 husky 配置了 Git hooks，在提交代码时自动运行格式检查
 ```
 
+# 参考
+
+[MoshiCoCo/docker-compose-hub:](https://github.com/MoshiCoCo/docker-compose-hub/tree/main)
