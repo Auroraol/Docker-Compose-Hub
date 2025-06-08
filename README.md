@@ -78,7 +78,7 @@ exit # 或者 ctrl + D
 
 直接进入 MySQL 命令行客户端
 
-![image-20250608170525031](D:/Github/docker-compose-hub/README.assets/image-20250608170525031.png)
+![image-20250608180110027](https://github.com/Auroraol/Drawing-bed/raw/main/img/image-20250608180110027.png)
 
 先进入容器再进入MySQL命令行客户端
 
