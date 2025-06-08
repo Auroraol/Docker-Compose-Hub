@@ -146,34 +146,6 @@ services:
 - [WordPress](docs/tools/wordpress) WordPress博客
 - .....
 
-# 参与贡献
-
-```bash
-npm intsll && npm install -g pnpm && pnpm install
-```
-
-请按照模板文件`/template`的格式填写，并将文件放置到 `docs/` 目录下对应的类别中
-
-格式检查
-
-```bash
-pnpm lint
-#或者npm run lint
-```
-
-格式检查实现原理
-
-```
-pnpm lint 或 npm run lint 的格式检查是通过以下方式实现的：
-1. 工具：使用 markdownlint-cli2 工具进行 Markdown 文件的格式检查
-2. 配置：在 package.json 中定义了 lint 脚本
-3. 规则配置：通过 .markdownlint.json 文件配置检查规则：
-* 禁用了一些规则（MD009、MD013、MD012、MD033、MD041）
-* 允许 HTML 元素
-* 配置了行长度检查
-1. 自动化：通过 husky 配置了 Git hooks，在提交代码时自动运行格式检查
-```
-
 # 参考
 
 [MoshiCoCo/docker-compose-hub:](https://github.com/MoshiCoCo/docker-compose-hub/tree/main)
