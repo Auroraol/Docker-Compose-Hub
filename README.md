@@ -49,6 +49,7 @@ docker-compose --version
 ```bash
 # 1
 git clone https://github.com/Auroraol/Docker-Compose-Hub.git
+
 # 2
 mkdir -p <your_target_directory>/docker-mysql8
 sudo cp docker-compose-hub/docs/dev-environment/mysql/docker-compose.yml <your_target_directory>/docker-mysql8
