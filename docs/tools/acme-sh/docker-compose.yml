@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  acme.sh:
+    image: neilpang/acme.sh
+    container_name: acme.sh
+    restart: always
+    command: daemon
+
+    volumes:
+      - "./acme.sh:/acme.sh"
+    environment:
+      #DnsPod
+      - DP_Key= <xxx>
+      - DP_Id= <xxx>
+      ## Aliyun
+      - Ali_Key= <xxx>
+      - Ali_Secret= <xxx>
+    network_mode: "host"
