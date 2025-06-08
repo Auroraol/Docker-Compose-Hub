@@ -165,22 +165,12 @@ pnpm lint
 
 ```
 pnpm lint 或 npm run lint 的格式检查是通过以下方式实现的：
-
 1. 工具：使用 markdownlint-cli2 工具进行 Markdown 文件的格式检查
-
-2. 配置：在 package.json 中定义了 lint 脚本：
-
-   json
-
-   Apply to template
-
-   **   **"lint"**: **"markdownlint-cli2  './\*\*/\*.md' '#node\_modules' "
-
+2. 配置：在 package.json 中定义了 lint 脚本
 3. 规则配置：通过 .markdownlint.json 文件配置检查规则：
 * 禁用了一些规则（MD009、MD013、MD012、MD033、MD041）
 * 允许 HTML 元素
 * 配置了行长度检查
-
 1. 自动化：通过 husky 配置了 Git hooks，在提交代码时自动运行格式检查
 ```
 
