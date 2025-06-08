@@ -1,14 +1,6 @@
 <div align="center">
 <h1 align="center">Docker-Compose-Hub</h1>
 </div>
-# 项目的目录结构
-
-* docs/dev-environment/ - 基础开发环境（MySQL、Redis、RabbitMQ等）
-* docs/tools/ - 常用工具（密码管理器、博客、监控工具等）
-* template/ - 文档模板
-* .github/ - GitHub Actions 配置
-* .husky/ - Git hooks 配置
-
 # 部署 Docker
 
 ## 安装Docker
@@ -148,4 +140,10 @@ services:
 
 # 参考
 
-[MoshiCoCo/docker-compose-hub:](https://github.com/MoshiCoCo/docker-compose-hub/tree/main)
+[MoshiCoCo/docker-compose-hub](https://github.com/MoshiCoCo/docker-compose-hub/tree/main)
+
+项目的目录结构:
+
+* docs/dev-environment/ - 基础开发环境（MySQL、Redis、RabbitMQ等）
+* docs/tools/ - 常用工具（密码管理器、博客、监控工具等）
+* template/ - 文档模板
